@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #71745e;
+    padding: 30px;
+}
+
+h1 {
+    color: #161616;
+}
+
+input {/*barra*/
+    padding: 9px; /*tamaño*/
+    width: 250px; /*largo*/
+    border: 2px solid #141313; /*borde*/
+    border-radius: 20px; /*puntas redondeadas*/
+}
+
+button {
+    padding: 8px 16px; /*tamaño*/
+    background-color: #161515;
+    color: white;
+    border: none;
+    border-radius: 10px; /*puntas redondeadas*/
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #154f8a;
+}
+
+#contenedor-resultados {
+    display: flex; /*acomoda elementos en fila*/
+    flex-wrap: wrap; /*cuando no entren mas, salta a la fila de abajo*/
+    justify-content: center; /*centra las fotos horizontalmente*/
+    gap: 10px; /*espacio entre las fotos*/
+    margin-top: 20px; /*espacio arriba del contenedor, para separarlo del boton*/
+}
+
+#contenedor-resultados img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /*si la foto no es cuadrada, la recorta para que no se deforme*/
+    border-radius: 8px; /*esquinas redondeadas*/
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
