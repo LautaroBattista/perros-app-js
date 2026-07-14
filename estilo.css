@@ -9,6 +9,13 @@ h1 {
     color: #161616;
 }
 
+/*select{
+    padding: 3px; /*tamaño*/
+    /*width: 180px; /*largo*/
+    /*border: 1px solid #141313; /*borde*/
+    /*border-radius: 15px; /*puntas redondeadas*/
+/*}*/
+
 input {/*barra*/
     padding: 9px; /*tamaño*/
     width: 250px; /*largo*/
@@ -44,7 +51,12 @@ button:hover {
     border-radius: 8px; /*esquinas redondeadas*/
 }
     
-    
+.mensaje-error {
+    font-size: 45px;
+    color: rgb(83, 34, 34);
+    font-weight: bold; /* grosor */
+    margin-top: 85px; /* lo baja desde arriba */
+}
     
     
     
